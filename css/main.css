@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --border: 1px solid #ffffff3a;
+}
+
+body, table, input, button {
+    font: 300 20px/200% 'Roboto',sans-serif;
+}
+
+body {
+    background-color: #121214;
+    color: white;
+}
+
+.container {
+    max-width: 770px;
+    margin: 0 auto;
+    padding: 20px 32px;
+}
+
+header {
+    padding: 20px;
+}
+
+form {
+    border: var(--border);
+    border-inline: none;
+    padding: 20px 20px;
+}
+
+fieldset legend {
+    font: 700 22px/140% 'Roboto', sans-serif;
+    color: #E1E1E6;
+    padding-bottom: 16px;
+}
+
+section h2 {
+    font: 700 22px/140% 'Roboto', sans-serif;
+    color: #E1E1E6;
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.lista-participantes > div {
+    border: var(--border);
+    border-radius: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset div {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
+.input-wrapper {
+    flex: 1;
+
+    align-items: center;
+    gap: 12px;
+
+    border: var(--border);
+    border-radius: 10px;
+
+    padding: 8px 12px;
+
+    font: 400 16px/150% 'Roboto', sans-serif;
+    color: #9AF8C9;
+}
+
+input {
+    all: unset;
+}
+
+fieldset button {
+    width: fit-content;
+    border: 0;
+    border-radius: 10px;
+    background-color: #9AF8C9;
+    padding: 7px 20px;
+    
+    font: 700 16px/150% 'Roboto', sans-serif;
+
+}
+
+fieldset button:hover{
+    background-color: #6fcc9e;
+}
+
+table {
+    font-size: 18px;
+    line-height: 20px;
+    border-collapse: collapse;
+}
+
+thead th {
+    text-align: left;
+    padding: 20px 20px;
+}
+
+tbody td {
+    padding: 20px 20px;
+    border-top: var(--border);
+    font-size: 16px;
+    line-height: 18px;
+    color: #c4c4cc;
+}
+
+tbody td strong {
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+tbody td small {
+    line-height: 16px;
+}
+
+tbody td button {
+    all: unset;
+    color: #9FF9CC;
+}
+
+tbody td button:hover {
+    text-decoration: underline;
+    color: #55dc99;
+}
